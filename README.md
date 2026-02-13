@@ -1,6 +1,6 @@
 # Asterax
 
-Asterax is a Macintosh Classic (System 7) game, written by Michael Hanson. It is based on the classic console arcade game [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)), in which a player-controlled ship must avoid drifting asteroids by shooting them with a projectile weapon.
+Asterax is a Macintosh Classic (System 7) game, written by Michael Hanson. It is based on the classic console arcade game [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)), in which a player-controlled ship must avoid drifting asteroids by shooting them with a projectile weapon. Asterax adds a powerup system based on collecting valuable crystals, which can be exchanged for improvements to the ship's weapons, shields, engines, and other capabilities. A two-player mode, using a shared keyboard, is also featured.
 
 Asterax was created as a student project when Michael was a sophomore studying computer science at Stanford University.   It was released as shareware in May 1994, and was included on the Varcon/MacSoft Arcade Collection CD-ROM in 1995.  In those days, it was conventional to release shareware into the world by uploading it to a public FTP repository such as wuarchive.wustl.edu and mac.archive.umich.edu, and that is how Asterax was sent out into the world.  The source code included in this repo is the version that was used to build version 1.3, which was released in September 1995, and was the final version.
 
