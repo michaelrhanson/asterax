@@ -12,7 +12,7 @@ The graphics for Asterax were rendered with hand-coded [POVRay](https://www.povr
 
 The original distribution stored image and sound assets in a separate file. The resource forks of the original project were extracted with [rsrcdump](https://github.com/jorio/rsrcdump), a useful tool by [jorio](https://github.com/jorio); image and sound files were moved into the Assets directory and the JSON dumps of the resource forks are placed in the Resources directory.   Sprites for the game were encoded as `cicn` resources, which had the benefit of built-in loader functions and a graphical editor in [ResEdit](https://en.wikipedia.org/wiki/ResEdit); the types of the original resources are preseved in the Assets directory.
 
-Binaries of the original Asterax builds are maintained by the (Macintosh Repository)[https://www.macintoshrepository.org/3045-asterax].
+Binaries of the original Asterax builds are maintained by the [Macintosh Repository](https://www.macintoshrepository.org/3045-asterax).
 
 ## License 
 
