@@ -1,1 +1,64 @@
-AsteraxVersion 1.3 documentation©1995 Michael HansonProgramming by Michael HansonArtwork by Anne FullertonDeveloped using the Sprite Animation Toolkit, by Ingemar Ragnemalm=======================================Many brave pilots have sought their fortune in the emeraldium-rich asteroid belts of Arvis Omega.  Some have returned with wealth beyond the wildest dreams of men, women, or small fuzzy creatures from Alpha Centauri, retiring to a life of luxury and exotic frozen drinks.  Most, of course, have simply died brief but heinous deaths.You, of course, being a brave but currently poor pilot, do not plan to die one of the aforementioned deaths.Alone, or with a single companion, you will enter the asteroid belt to blast the precious emeraldium loose from the rocks where it hides.  You will also uncover rare elements that provide energy to sustain your ship.  If you are successful and gather the delicate crystals, you will be able to trade them for better equipment and eternal fame.Of course, you are not the only pilots in the belts of Arvis Omega!  Aliens from far-off worlds come there as well, to gather the crystals for themselves, or just to blow away some annoying humans. Good luck!=======================================  Asterax is a single- or multi-player arcade game for Macintoshª computers, growing out of the classic arcade game Asteroids(ª), but with new strategic elements.  Asterax makes use of many features of the modern Macintosh system, including multiple screen sizes and 4-channel sound!Features:Classic arcade action with new strategic elementsSmooth animation on Motorola 680x0 and PowerPC processorsFull support for multiple monitor sizes -- allowing you to actually use all of your monitor, whether you have a Color Classic or a 21" multi-sync!Four-channel sound supportHundreds of frames of rendered 3-dimensional graphicsSpecial Feature in this version: A cheat mode that lets you try out all of the special equipment and start at any level!System Requirements:A Macintosh computer with a Motorola 68020, 030, 040, or PowerPC processor ('040 or PPC recommended)System 7.0 system software or laterA monitor supporting 16 or 256 colorsAt least 2.7 MB of available RAM -- Asterax has been tested on a 4 MB system using Connectix RamDoublerª without any problems.Instructions for Use:	Asterax automatically creates preferences and high-score files when you run it for the first time.  The program will ask you what size monitor you wish to use, and will remember that size for later games.  You may change this setting later by selecting "Preferences..." from the main Asterax screen.  The screen size you choose will determine, in part, the amount of memory Asterax requires to run.  Roughly, you can estimate your memory load using this table:			Screen Size						Recommended Memory (from the Finder's Get Info box)      512 x 384                  2.5 MB      640 x 400                  2.6 MB      640 x 480                  2.7 MB      832 x 624 								 3.1 MB      1024 x 768						    3.8 MB      1152 x 870 						  4.0 MB  Please note that Asterax is initially set up for a 640x480 screen size, and may run out of memory if you increase this size.  If you choose a larger screen when you first run Asterax, it will probably run out of memory and quit back to the Finder.  You may then increase the amount of memory given to it, and run it again.  (We're working on a more elegant system.  Sorry about the mess.)	Some players report that smaller screens (about 640x480) are the most fun for a single player, while those using two-player mode prefer larger screens so that they have room to work.  Since your screen size is recorded with each high score, feel free to experiment and find what works best with you.  Note, however, that the "About" screens are not guaranteed to display properly on screen sizes smaller than 640 x 480.During game play, the following key shortcuts can come in handy:  caps lock: Pause the game and allow normal Macintosh menu operation.  You can then change the volume, as well.  escape or command-q: Quit the current game and return to the main screenSuspending the Game  Since games of Asterax sometimes go on for a long time, there is an option that allows you to suspend a single game so that you may return to it later.  When you are in the Marketplace between levels, you may suspend your game by doing the following:    Press caps lock: this will pause the game, so that you may use the menus    Select "Suspend Game" from the Game menu: or hit command-S. You will return to the main screen (where the high-score list is), where you will see information about your saved game displayed below the volume setting.  To resume this game at a later date:   Get to the main screen: Either by starting the program, or ending your current game   Select "Resume Game" from the Game menu: or hit command-R. You will be placed in the Marketplace, about to enter the new level.  You may purchase new equipment normally, using whatever Emeraldium crystals you had when you suspended.   
+Asterax
+Version 1.3 documentation
+Copyright 1995 Michael Hanson
+Programming by Michael Hanson
+Artwork by Anne Fullerton
+Developed using the Sprite Animation Toolkit, by Ingemar Ragnemalm
+
+=======================================
+Many brave pilots have sought their fortune in the emeraldium-rich asteroid belts of Arvis Omega.  Some have returned with wealth beyond the wildest dreams of men, women, or small fuzzy creatures from Alpha Centauri, retiring to a life of luxury and exotic frozen drinks.  Most, of course, have simply died brief but heinous deaths.
+
+You, of course, being a brave but currently poor pilot, do not plan to die one of the aforementioned deaths.
+
+Alone, or with a single companion, you will enter the asteroid belt to blast the precious emeraldium loose from the rocks where it hides.  You will also uncover rare elements that provide energy to sustain your ship.  If you are successful and gather the delicate crystals, you will be able to trade them for better equipment and eternal fame.
+
+Of course, you are not the only pilots in the belts of Arvis Omega!  Aliens from far-off worlds come there as well, to gather the crystals for themselves, or just to blow away some annoying humans. 
+
+Good luck!
+=======================================
+
+Asterax is a single- or multi-player arcade game for Macintosh computers, growing out of the classic arcade game Asteroids, but with new strategic elements.  Asterax makes use of many features of the modern Macintosh system, including multiple screen sizes and 4-channel sound!
+
+Features:
+Classic arcade action with new strategic elements
+Smooth animation on Motorola 680x0 and PowerPC processors
+Full support for multiple monitor sizes -- allowing you to actually use all of your monitor, whether you have a Color Classic or a 21" multi-sync!
+Four-channel sound support
+Hundreds of frames of rendered 3-dimensional graphics
+Special Feature in this version: A cheat mode that lets you try out all of the special equipment and start at any level!
+
+System Requirements:
+A Macintosh computer with a Motorola 68020, 030, 040, or PowerPC processor ('040 or PPC recommended)
+System 7.0 system software or later
+A monitor supporting 16 or 256 colors
+At least 2.7 MB of available RAM -- Asterax has been tested on a 4 MB system using Connectix RamDoubler(tm) without any problems.
+
+Instructions for Use:
+  Asterax automatically creates preferences and high-score files when you run it for the first time.  The program will ask you what size monitor you wish to use, and will remember that size for later games.  You may change this setting later by selecting "Preferences..." from the main Asterax screen.
+  The screen size you choose will determine, in part, the amount of memory Asterax requires to run.  Roughly, you can estimate your memory load using this table:
+
+  Screen Size      Recommended Memory (from the Finder's Get Info box)
+    512 x 384      2.5 MB
+    640 x 400      2.6 MB
+    640 x 480      2.7 MB
+    832 x 624      3.1 MB
+    1024 x 768     3.8 MB
+    1152 x 870     4.0 MB
+
+Please note that Asterax is initially set up for a 640x480 screen size, and may run out of memory if you increase this size.  If you choose a larger screen when you first run Asterax, it will probably run out of memory and quit back to the Finder.  You may then increase the amount of memory given to it, and run it again.  (We're working on a more elegant system.  Sorry about the mess.)
+
+Some players report that smaller screens (about 640x480) are the most fun for a single player, while those using two-player mode prefer larger screens so that they have room to work.  Since your screen size is recorded with each high score, feel free to experiment and find what works best with you.  Note, however, that the "About" screens are not guaranteed to display properly on screen sizes smaller than 640 x 480.
+
+During game play, the following key shortcuts can come in handy:
+  caps lock: Pause the game and allow normal Macintosh menu operation.  You can then change the volume, as well.
+  escape or command-q: Quit the current game and return to the main screen
+
+Suspending the Game
+
+  Since games of Asterax sometimes go on for a long time, there is an option that allows you to suspend a single game so that you may return to it later.  When you are in the Marketplace between levels, you may suspend your game by doing the following:
+    Press caps lock: this will pause the game, so that you may use the menus
+    Select "Suspend Game" from the Game menu: or hit command-S.
+ You will return to the main screen (where the high-score list is), where you will see information about your saved game displayed below the volume setting.  To resume this game at a later date:
+   Get to the main screen: Either by starting the program, or ending your current game
+   Select "Resume Game" from the Game menu: or hit command-R.
+ You will be placed in the Marketplace, about to enter the new level.  You may purchase new equipment normally, using whatever Emeraldium crystals you had when you suspended.
