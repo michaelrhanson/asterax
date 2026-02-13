@@ -1,1 +1,43 @@
-#include "colors.inc"#include "textures.inc"camera {   location  <0, 10, -10>   direction <0, -1, 1>   look_at   <0, 1, 0>}light_source { <-7,7,-7> color red 1 green 1 blue 1 }#declare mainbody = sphere {<0,0,0>,3  texture {Silver_Texture}}#declare antenna = union {  cylinder {<0,0,0>,<0,5,0>,.5}   sphere {<0,5,0>,.5}   pigment {color rgb <0,1,0>}  finish {phong 1.0}}#declare light = sphere {<0,0,0>,.5   translate <3,0,0>  pigment {color rgb <1,0,0>}  finish {  phong 1.0}}union {	object {mainbody} object {antenna rotate z * 30} object {antenna rotate z * -30} object {light} object {light rotate y * 45} object {light rotate y * 90} object {light rotate y * 135} object {light rotate y * 180} object {light rotate y * 225} object {light rotate y * 270} object {light rotate y * 315} rotate y * clock}
+#include "colors.inc"
+#include "textures.inc"
+
+
+camera {
+   location  <0, 10, -10>
+   direction <0, -1, 1>
+   look_at   <0, 1, 0>
+}
+
+light_source { <-7,7,-7> color red 1 green 1 blue 1 }
+
+#declare mainbody = sphere {<0,0,0>,3
+  texture {Silver_Texture}
+}
+
+#declare antenna = union {
+  cylinder {<0,0,0>,<0,5,0>,.5} 
+  sphere {<0,5,0>,.5} 
+  pigment {color rgb <0,1,0>}
+  finish {phong 1.0}
+}
+
+#declare light = sphere {<0,0,0>,.5 
+  translate <3,0,0>
+  pigment {color rgb <1,0,0>}
+  finish {  phong 1.0}
+}
+
+union {
+	object {mainbody}
+ object {antenna rotate z * 30}
+ object {antenna rotate z * -30}
+ object {light}
+ object {light rotate y * 45}
+ object {light rotate y * 90}
+ object {light rotate y * 135}
+ object {light rotate y * 180}
+ object {light rotate y * 225}
+ object {light rotate y * 270}
+ object {light rotate y * 315}
+ rotate y * clock
+}

@@ -1,1 +1,56 @@
-#include "shapes.inc"#include "colors.inc"#include "textures.inc"#include "shapesq.inc"camera {   location  <0, 4, -16>   direction <0, 1, -4>   look_at   <0, 0, .2>}light_source { <-15, 20, -25> color red 1 green 1 blue 1 }//light_source { < 15, 30, -25> color red 1 green 1 blue 1 }#declare body =   difference {     sphere {<0,0,0> 1 scale <1.2,1,1.6>}     plane {<0,1,0>, .2}       plane {<0,-1,0>, -1.7}     plane {<0,0,1>, -.8}     box {<-.5,-.5,-.6>,<.5,1.8,-.9>}   pigment { color red 0 green 0 blue 1 }   finish {      ambient 0.2      diffuse 0.8      phong 0.8   }}#declare wing =   difference {	    box {<-2.3,-.2,1.3>,<2.3,.2,-1.2>}	    sphere {<-2.4,-.1,.6>,1.4}	    sphere {<2.4,-.1,.6>,1.4}	    sphere {<1.4,-.1,-1.7>,1}	    sphere {<-1.4,-.1,-1.7>,1}     box {<-1.4,-.3,-.7>,<1.4,.3,-1.7>}   pigment { color red 0 green 1 blue 1 }   finish {      ambient 0.2      diffuse 0.8      phong 0.8   }}object {   union {  	  object{ body}     object {wing}    }   rotate x*-60   rotate z*20}
+#include "shapes.inc"
+#include "colors.inc"
+#include "textures.inc"
+#include "shapesq.inc"
+
+camera {
+   location  <0, 4, -16>
+   direction <0, 1, -4>
+   look_at   <0, 0, .2>
+}
+
+light_source { <-15, 20, -25> color red 1 green 1 blue 1 }
+//light_source { < 15, 30, -25> color red 1 green 1 blue 1 }
+
+#declare body = 
+  difference {
+     sphere {<0,0,0> 1 scale <1.2,1,1.6>}
+     plane {<0,1,0>, .2}  
+     plane {<0,-1,0>, -1.7}
+     plane {<0,0,1>, -.8}
+     box {<-.5,-.5,-.6>,<.5,1.8,-.9>}
+
+   pigment { color red 0 green 0 blue 1 }
+   finish {
+      ambient 0.2
+      diffuse 0.8
+      phong 0.8
+   }
+}
+
+#declare wing = 
+  difference {
+	    box {<-2.3,-.2,1.3>,<2.3,.2,-1.2>}
+	    sphere {<-2.4,-.1,.6>,1.4}
+	    sphere {<2.4,-.1,.6>,1.4}
+	    sphere {<1.4,-.1,-1.7>,1}
+	    sphere {<-1.4,-.1,-1.7>,1}
+     box {<-1.4,-.3,-.7>,<1.4,.3,-1.7>}
+
+   pigment { color red 0 green 1 blue 1 }
+   finish {
+      ambient 0.2
+      diffuse 0.8
+      phong 0.8
+   }
+
+}
+
+object {
+   union {
+  	  object{ body}
+     object {wing} 
+   }
+   rotate x*-60
+   rotate z*20
+}

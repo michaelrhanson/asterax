@@ -1,1 +1,137 @@
-#include "shapes.inc"#include "colors.inc"#include "textures.inc"//#include "shapesq.inc"camera {   location  <0, 2.5, -2.5>   direction <0, -1.4, 1.4>   look_at   <-.3,-.2, 0>}light_source { <-3, 10, -5> color red 1 green 1 blue 1 }//light_source { <-15, 50, -25> color red 1 green 1 blue 1 }//light_source { < 15, 30, -25> color red 1 green 1 blue 1 }#declare wing =   difference {     box {<-1,-.1,-1>,<1,.1,1>}     sphere {<-1.7,0,0>,1.3}     sphere {<0,0,-1.7>,1.3}     sphere {<1.1,0,0.5>,.6}     sphere {<0.5,0,1.1>,.6}     plane {<.1,-1,.1>, .01}   rotate y*45   pigment { color red 1 green .05 blue .05 }   finish {     metallic     ambient 0.35       diffuse 1.00       brilliance 15       phong 0.41       phong_size 5   }}#declare tubing = union {  cylinder {<-.3,0,0>,<.55,0,0> .02}  sphere {<-.3,0,0> .02}  sphere {<.55,0,0> .02}  pigment { color red 1 green .1 blue .1 }  finish {     metallic     ambient 0.15       diffuse 1.00       brilliance 4       phong 0.41       phong_size 3   }   rotate z*5}#declare centralBody = union {   sphere {<.4,0,.0>,.07}   cylinder {<.4,0,.0>,<-.3,0,-.0>,.07}   sphere {<-.3,0,-.0>,.07}   pigment {color red 0.5 green .5 blue 1}   finish {					phong 1     metallic   }}#declare cockpit = difference {  sphere {<-.3,0,0>,  .1}  box {<-.3,0,0>,<-.3,-1,0>}  pigment {color red 0 green 0 blue 0 }  finish {    phong 1  }  translate <0,-.02,0>}#declare gunBarrel = difference {  cylinder {<-.1,0,-.1>,<.1,0,.1> .02}  cylinder {<-.1,0,-.1>,<.1,0,.1> .01}  pigment {color red .2 green .2 blue .4}}#declare engine = union {  difference {    cylinder {<.6,0,0>,<.9,0,0> .06}    cylinder {<.7,0,0>,<.9,0,0> .03}  }  sphere {<.9,0,0> .06} pigment {color red .5 green .5 blue .7} finish {   Metal  }}/*#declare engineFlame = object {    Piriform    texture { finish {Luminous} pigment { Yellow filter 0.5 } }    rotate 90*y    scale <.6,.1,.1>    translate <1.1,0,.1>}*//*plane {-y, 2  pigment {color red 0 green 0 blue .6}      }*/// cylinder {<-1,0,0>,<1,0,0> .1 pigment {color red 0 green 1 blue 0}}object {   union {       object {wing}      object {tubing translate <0,0,.2>}      object {tubing translate <0,0,-.2>}      object {tubing scale <.8,1,1> translate <.2,0,.5>}      object {tubing scale <.8,1,1> translate <.2,0,-.5>}      object {tubing scale <.6,1,1> translate <.2,0,.8>}      object {tubing scale <.6,1,1>  translate <.2,0,-.8>}      object {centralBody}      object {cockpit}      object {engine translate <-.1,.05,.5>}      object {engine translate <-.1,.05,-.5>}  //    object {engineFlame translate <-.1,.05,.5>}   //   object {engineFlame translate <-.1,.05,-.55>}   }   pigment { color red 1 green 0 blue 0 }   finish {      ambient 0.2      diffuse 0.8      phong 0.8   }			 rotate x*-5    rotate y*220}
+#include "shapes.inc"
+#include "colors.inc"
+#include "textures.inc"
+//#include "shapesq.inc"
+
+camera {
+   location  <0, 2.5, -2.5>
+   direction <0, -1.4, 1.4>
+   look_at   <-.3,-.2, 0>
+}
+
+
+
+light_source { <-3, 10, -5> color red 1 green 1 blue 1 }
+
+//light_source { <-15, 50, -25> color red 1 green 1 blue 1 }
+//light_source { < 15, 30, -25> color red 1 green 1 blue 1 }
+
+#declare wing = 
+  difference {
+     box {<-1,-.1,-1>,<1,.1,1>}
+     sphere {<-1.7,0,0>,1.3}
+     sphere {<0,0,-1.7>,1.3}
+     sphere {<1.1,0,0.5>,.6}
+     sphere {<0.5,0,1.1>,.6}
+     plane {<.1,-1,.1>, .01}
+
+   rotate y*45
+   pigment { color red 1 green .05 blue .05 }
+   finish {
+     metallic
+     ambient 0.35
+       diffuse 1.00
+       brilliance 15
+       phong 0.41
+       phong_size 5
+   }
+}
+
+#declare tubing = union {
+  cylinder {<-.3,0,0>,<.55,0,0> .02}
+  sphere {<-.3,0,0> .02}
+  sphere {<.55,0,0> .02}
+
+  pigment { color red 1 green .1 blue .1 }
+  finish {
+     metallic
+     ambient 0.15
+       diffuse 1.00
+       brilliance 4
+       phong 0.41
+       phong_size 3
+   }
+   rotate z*5
+}
+
+#declare centralBody = union {
+   sphere {<.4,0,.0>,.07}
+   cylinder {<.4,0,.0>,<-.3,0,-.0>,.07}
+   sphere {<-.3,0,-.0>,.07}
+
+   pigment {color red 0.5 green .5 blue 1}
+   finish {
+					phong 1
+     metallic
+   }
+}
+
+#declare cockpit = difference {
+  sphere {<-.3,0,0>,  .1}
+  box {<-.3,0,0>,<-.3,-1,0>}
+  pigment {color red 0 green 0 blue 0 }
+  finish {
+    phong 1
+  }
+  translate <0,-.02,0>
+}
+
+#declare gunBarrel = difference {
+  cylinder {<-.1,0,-.1>,<.1,0,.1> .02}
+  cylinder {<-.1,0,-.1>,<.1,0,.1> .01}
+  pigment {color red .2 green .2 blue .4}
+}
+
+#declare engine = union {
+  difference {
+    cylinder {<.6,0,0>,<.9,0,0> .06}
+    cylinder {<.7,0,0>,<.9,0,0> .03}
+  }
+  sphere {<.9,0,0> .06}
+
+ pigment {color red .5 green .5 blue .7}
+ finish {
+   Metal
+  }
+}
+/*
+#declare engineFlame = object {
+    Piriform
+    texture { finish {Luminous} pigment { Yellow filter 0.5 } }
+    rotate 90*y
+    scale <.6,.1,.1>
+    translate <1.1,0,.1>
+}
+*/
+/*
+plane {-y, 2  pigment {color red 0 green 0 blue .6}
+      }
+*/
+// cylinder {<-1,0,0>,<1,0,0> .1 pigment {color red 0 green 1 blue 0}}
+
+object {
+   union { 
+      object {wing}
+      object {tubing translate <0,0,.2>}
+      object {tubing translate <0,0,-.2>}
+      object {tubing scale <.8,1,1> translate <.2,0,.5>}
+      object {tubing scale <.8,1,1> translate <.2,0,-.5>}
+      object {tubing scale <.6,1,1> translate <.2,0,.8>}
+      object {tubing scale <.6,1,1>  translate <.2,0,-.8>}
+      object {centralBody}
+      object {cockpit}
+      object {engine translate <-.1,.05,.5>}
+      object {engine translate <-.1,.05,-.5>}
+  //    object {engineFlame translate <-.1,.05,.5>}
+   //   object {engineFlame translate <-.1,.05,-.55>}
+   }
+   pigment { color red 1 green 0 blue 0 }
+   finish {
+      ambient 0.2
+      diffuse 0.8
+      phong 0.8
+   }
+
+			 rotate x*-5
+    rotate y*220
+}

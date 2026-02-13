@@ -1,1 +1,60 @@
-camera {   location  <0, 0, -3.5>   direction <0, 0, 1.2071>   look_at   <0, 0, 0>}light_source { <-15, 30, -25> color red 1 green 1 blue 1 }light_source { < 15, 30, -25> color red 1 green 1 blue 1 }#declare bsize = 0.7#declare BaseBox = box {<-bsize,-bsize,-bsize>,<bsize,bsize,bsize> }difference {  union {       sphere {<0,0,0>,1} /*     object {BaseBox rotate <12,67,24>}      object {BaseBox rotate <-41,24,57>}      object {BaseBox rotate <72,15,-41>}      object {BaseBox rotate <61,72,26>}      object {BaseBox rotate <65,15,-83>}      object {BaseBox rotate <23,-62,-171>}      object {BaseBox rotate <-52,13,154>}      object {BaseBox rotate <-1,-4,41>}      object {BaseBox rotate <145,34,-82>}  */      object {BaseBox rotate <12, 67, 0>}      object {BaseBox rotate <-12, 67, 0>}		    object {BaseBox rotate <41, 24, 0>}			   object {BaseBox rotate <-41, 24, 0>}      object {BaseBox rotate <61,72,0>}      object {BaseBox rotate <-61,72,0>}      object {BaseBox rotate <31,-42,0>}      object {BaseBox rotate <-31,-42,0>}		    object {BaseBox rotate <3, 81, 0>}			   object {BaseBox rotate <-3, 81, 0>}		    object {BaseBox rotate <72, 43, 0>}			   object {BaseBox rotate <-72, 43, 0>}		    object {BaseBox rotate <10, -11, 0>}			   object {BaseBox rotate <-10, -11, 0>}		    object {BaseBox rotate <24, -53, 0>}			   object {BaseBox rotate <-24, -53, 0>}		    object {BaseBox rotate <17, 63, 0>}			   object {BaseBox rotate <-17, 63, 0>}  }   pigment { color red 0.3 green 0.25 blue 0.25 }   normal {    wrinkles 1  }   finish {      ambient 0.2      diffuse 0.8      crand 0.5      phong 0.2   }  rotate clock * y  rotate x * 30}
+camera {
+   location  <0, 0, -3.5>
+   direction <0, 0, 1.2071>
+   look_at   <0, 0, 0>
+}
+
+light_source { <-15, 30, -25> color red 1 green 1 blue 1 }
+light_source { < 15, 30, -25> color red 1 green 1 blue 1 }
+
+#declare bsize = 0.7
+#declare BaseBox = box {<-bsize,-bsize,-bsize>,<bsize,bsize,bsize> }
+
+difference {
+  union { 
+      sphere {<0,0,0>,1}
+ /*     object {BaseBox rotate <12,67,24>}
+      object {BaseBox rotate <-41,24,57>}
+      object {BaseBox rotate <72,15,-41>}
+      object {BaseBox rotate <61,72,26>}
+      object {BaseBox rotate <65,15,-83>}
+      object {BaseBox rotate <23,-62,-171>}
+      object {BaseBox rotate <-52,13,154>}
+      object {BaseBox rotate <-1,-4,41>}
+      object {BaseBox rotate <145,34,-82>}
+  */
+      object {BaseBox rotate <12, 67, 0>}
+      object {BaseBox rotate <-12, 67, 0>}
+		    object {BaseBox rotate <41, 24, 0>}
+			   object {BaseBox rotate <-41, 24, 0>}
+      object {BaseBox rotate <61,72,0>}
+      object {BaseBox rotate <-61,72,0>}
+      object {BaseBox rotate <31,-42,0>}
+      object {BaseBox rotate <-31,-42,0>}
+		    object {BaseBox rotate <3, 81, 0>}
+			   object {BaseBox rotate <-3, 81, 0>}
+
+		    object {BaseBox rotate <72, 43, 0>}
+			   object {BaseBox rotate <-72, 43, 0>}
+		    object {BaseBox rotate <10, -11, 0>}
+			   object {BaseBox rotate <-10, -11, 0>}
+		    object {BaseBox rotate <24, -53, 0>}
+			   object {BaseBox rotate <-24, -53, 0>}
+		    object {BaseBox rotate <17, 63, 0>}
+			   object {BaseBox rotate <-17, 63, 0>}
+
+  }
+
+   pigment { color red 0.3 green 0.25 blue 0.25 }
+   normal {
+    wrinkles 1
+  }
+   finish {
+      ambient 0.2
+      diffuse 0.8
+      crand 0.5
+      phong 0.2
+   }
+  rotate clock * y
+  rotate x * 30
+}

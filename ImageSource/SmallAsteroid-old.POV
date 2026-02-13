@@ -1,1 +1,37 @@
-camera {   location  <0, 0, -3.5>   direction <0, 0, 1.2071>   look_at   <0, 0, 0>}light_source { <-15, 30, -25> color red 1 green 1 blue 1 }light_source { < 15, 30, -25> color red 1 green 1 blue 1 }#declare bsize = 0.34#declare csize = 0.3#declare BaseBox = box {<-bsize,-bsize,-bsize>,<bsize,bsize,bsize> }#declare Crater = sphere {<0,0,0>,0.2                           // pigment {color red 1.0 green 0 blue 0}                         }union {       sphere {<0,0,0>,.38}      object {BaseBox rotate <16,21,-52>}      object {BaseBox rotate <16,66,31>}      object {BaseBox rotate <62,53,52>}      object {BaseBox rotate <1,-5,-41>}      object {BaseBox rotate <13,23,6>}      object {BaseBox rotate <5,-26,16>}      object {BaseBox rotate <3,-42,63>}      object {BaseBox rotate <15,-51,32>}      object {BaseBox rotate <62,-05,51>}   pigment { color red .3 green 0.3 blue 0.3 }   finish {      ambient 0.2      diffuse 0.8      crand 0.3      phong 0.2   }   rotate clock * y}
+camera {
+   location  <0, 0, -3.5>
+   direction <0, 0, 1.2071>
+   look_at   <0, 0, 0>
+}
+
+light_source { <-15, 30, -25> color red 1 green 1 blue 1 }
+light_source { < 15, 30, -25> color red 1 green 1 blue 1 }
+
+#declare bsize = 0.34
+#declare csize = 0.3
+#declare BaseBox = box {<-bsize,-bsize,-bsize>,<bsize,bsize,bsize> }
+#declare Crater = sphere {<0,0,0>,0.2
+                           // pigment {color red 1.0 green 0 blue 0}
+                         }
+union { 
+      sphere {<0,0,0>,.38}
+      object {BaseBox rotate <16,21,-52>}
+      object {BaseBox rotate <16,66,31>}
+      object {BaseBox rotate <62,53,52>}
+      object {BaseBox rotate <1,-5,-41>}
+      object {BaseBox rotate <13,23,6>}
+      object {BaseBox rotate <5,-26,16>}
+      object {BaseBox rotate <3,-42,63>}
+      object {BaseBox rotate <15,-51,32>}
+      object {BaseBox rotate <62,-05,51>}
+
+   pigment { color red .3 green 0.3 blue 0.3 }
+
+   finish {
+      ambient 0.2
+      diffuse 0.8
+      crand 0.3
+      phong 0.2
+   }
+   rotate clock * y
+}
