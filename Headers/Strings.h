@@ -1,0 +1,60 @@
+#define rGeneralStrings	400
+
+#define rNeedToRestart	1
+#define rSetScreenSize	2
+#define rSlowerButMoreCompatible	3
+#define rDoubleSpeed		4
+#define rNewGameParameters	5
+#define rKeySetup			6
+#define rPlayerOne			7
+#define rPlayerTwo			8
+#define rDifficulty			9
+#define rBeginner			10
+#define rNormal				11
+#define rExpert				12
+#define rMore				13
+#define rVolume				14
+#define rNoSoundFile		15
+#define rPleaseSupport		16
+#define rPleaseSupport2		17
+#define rLoadingGraphics	18
+#define rNeedSys7			19
+#define rCouldntFindSound	20
+#define rCouldntFindData	21
+#define rShields			22
+#define rPolicyCancelled	23
+#define rInsurancePaymentIs 24
+#define rRemain				25
+#define rInBank				26 
+#define rLevel				27 
+#define rCleared			28 
+#define rEntering			29 
+#define rScore				30 
+#define rShortScore			31 
+#define rRestoringShip		32 
+#define rBuildingShip		33 
+#define rGameOver			34 
+#define rLives				35 
+#define rEnteringMarket		36 
+#define rCurrentEquipment	37 
+#define rExchangeCrystals	38 
+#define rShortLevel			39 
+#define rPlayer				40 
+#define rNotAvailable		41 
+#define rSelShip			42
+#define rAddress1			43
+#define rAddress2			44
+#define rAddress3			45
+#define rEmeraldium			46
+#define rShieldEnergy		47
+#define rSuspendedNotAvailable	48
+#define rSuspendedGame		49
+#define rPlayers			50
+
+
+
+#define rShipNameStrings	401
+
+#define rCrabMessage		4
+#define rMantisMessage		5
+#define rMothMessage		6

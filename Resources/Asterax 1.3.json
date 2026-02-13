@@ -1,0 +1,925 @@
+{
+	"_metadata": {
+		"junk1": 32948292,
+		"junk2": 6488,
+		"file_attributes": 0
+	},
+	"DATA": {
+		"0": {
+			"flags": 40,
+			"order": 0,
+			"data": "0000000A00030008001000140006000F002800280001000200080014003200020005000A0014000500040004001400030004000400010005000900280028000A000006436F73743A2000085661726961626C6500135374616E646172642045717569706D656E743A0000486967682053636F726573000E417374657261782053636F726573000E417374657261782053636F726573000E417374657261782053636F7265730025642E200000256C6400252373202564000005202878322925642E200000256C6400252373202564000005202878322920252373202523732020256478256420202573202025642025237300022C2000022C200000004D6163696E746F736820000000010000074865696E6F7573022C20000E4173746572617820536F756E6473000C417374657261782044617461000200028002800340040004800180019001E00270030003660000507265666572656E636573000D417374657261782050726566730D417374657261782050726566730D4173746572617820507265667300004A4F7574206F66206D656D6F7279212020506C6561736520696E63726561736520746865206D656D6F727920696E207468652046696E6465722773202747657420496E666F2720626F782E0000001141737465726178206973205061757365642150726573732043617073204C6F636B20746F2072657475726E20746F2067616D65246F722065736361706520746F207465726D696E6174652063757272656E742067616D652E00800080008000400040004000200020002000C000C000C0000000FFFFFFFFFFFFFFFF0000FFFF0000FFFFFFFFFFFF0000FFFF0000FFFF0000FFFFFFFF000080000000800000008000800000002523732025642025237300002573202573202564207070702E2020252373000025732025732000000420202020002573202573202564207070702E202025642070707020257300002573202573200000202020202E202000202020202523730025237320202564202B2025642070707020252373203D2025642070707000082020202020202B2000062020202020200003203D20252373202523732025640000024F4B000000035965730000024E6F0000000451756974000000374F7574206F66206D656D6F7279212054727920696E6372656173696E6720746865206D656D6F727920696E202747657420696E666F272E00001C496E7465726E616C206572726F722E20284E6F2073637265656E3F2900000020436F756C646E27742066696E6420746865206261636B64726F702050494354210000001C496E7465726E616C206572726F722E20284E6F2077696E646F773F29000000000200000032000AFFFFF79A000800040009000000190050000107600000016A0000001C001C001E001C0024082E636F6E736F6C65004E754EF900004EF900000064006400C8012C00640078270F270F0000610077002523732E6C6F670001140446696C650006517569742F510004456469740024556E646F2F5A3B282D3B4375742F583B436F70792F433B50617374652F563B436C6561720016707265737320C772657475726EC820746F20657869740000000D0007636F6E736F6C6501010101010101010102020202020101010101010101010101010101010101010408080808080808080808080808080810101010101010101010080808080808086060606060604040404040404040404040404040404040404040080808080808A0A0A0A0A0A0808080808080808080808080808080808080808008080808010000736372617463680077622B0074656D7000002573252E346400003F3F3F3F3F3F3F3F800000008000000080000000008000007F7FFFFF34000000800000007FFE7FFEFFFFFFFFFFFFFFFF3FC03FC0800000007FFF7FFF0000FFFFFFFF000040004000C90FDAA22168C2353FDE3FDE8000000040004000D49A784BCD1B8AFF0000303132333435363738394142434445460000303132333435363738396162636465660000063E3E3E3E3E3E0000005448494E4B2043204C696272617269657320A920313939312053796D616E74656320436F72702E000000252373202523730025237320252373000000010000000001000000010000010000000001000000010000000100000647656E6576610012536574757020666F7220506C617965723A2000034F6E650354776F0A5368697020547970653A0010536869656C6420537472656E6774683A00104E756D626572206F662053686F74733A0010456E67696E6520537472656E6774683A000D53686F7420426F6E757365733A125370656369616C2045717569706D656E743A00105374617274696E67204C6576656C3A2000"
+		}
+	},
+	"ZERO": {
+		"0": {
+			"flags": 8,
+			"order": 1,
+			"data": "067200AA0E26000000000000000000000004011E026A00200018000400060000000000000000000000040000006A00000000000000000000027600FA00FA00FA00F800C600E000DC013800D800000000000000020002005200020098000000000022002201EA0000000400040004000600060004000600000000003E01B2000600040000000C00040000000A0140"
+		}
+	},
+	"DREL": {
+		"0": {
+			"flags": 40,
+			"order": 2,
+			"data": "F694"
+		}
+	},
+	"SIZE": {
+		"-1": {
+			"junk": 1300668,
+			"order": 10,
+			"data": "4000002AF800002AF800"
+		},
+		"1": {
+			"junk": 1300664,
+			"order": 137,
+			"data": "400000465000002AF800"
+		},
+		"0": {
+			"junk": 1300640,
+			"order": 138,
+			"data": "400000465000002AF800"
+		}
+	},
+	"cicn": {
+		"1500": {
+			"flags": 32,
+			"order": 11,
+			"file": "cicn/1500.png"
+		},
+		"1501": {
+			"flags": 32,
+			"order": 12,
+			"file": "cicn/1501.png"
+		},
+		"1502": {
+			"flags": 32,
+			"order": 13,
+			"file": "cicn/1502.png"
+		},
+		"1503": {
+			"flags": 32,
+			"order": 14,
+			"file": "cicn/1503.png"
+		},
+		"1504": {
+			"flags": 32,
+			"order": 15,
+			"file": "cicn/1504.png"
+		},
+		"1505": {
+			"flags": 32,
+			"order": 16,
+			"file": "cicn/1505.png"
+		},
+		"1510": {
+			"order": 17,
+			"file": "cicn/1510.png"
+		},
+		"2030": {
+			"flags": 32,
+			"order": 18,
+			"file": "cicn/2030.png"
+		}
+	},
+	"PREF": {
+		"128": {
+			"order": 19,
+			"data": "80"
+		}
+	},
+	"TEXT": {
+		"600": {
+			"name": "The Story",
+			"order": 20,
+			"obj": "Many brave pilots have sought their fortune in the emeraldium-rich asteroid belts of Arvis Omega.  Some have returned with wealth beyond the wildest dreams of man, woman, or small fuzzy creature from Alpha Centauri, retiring to a life of luxury and exotic frozen drinks.  Most, of course, have simply died brief but heinous deaths.\r\rYou, of course, being a brave but currently poor pilot, do not plan to die one of the aforementioned deaths.\r\rAlone, or with a single companion, you will enter the asteroid belt to blast the precious emeraldium loose from the rocks where it hides.  You will also uncover rare elements that provide energy to sustain your ship.  If you are successful and gather the delicate crystals, you will be able to trade them for better equipment and eternal fame.\r\rOf course, you are not the only pilots in the belts of Arvis Omega!  Aliens from far-off worlds come there as well, to gather the crystals for themselves, or just to blow away some annoying humans. \r\rGood luck!\u0000"
+		},
+		"601": {
+			"name": "Your Ship",
+			"order": 21,
+			"obj": "You may choose from three available models for your base chassis.  Then, when you acquire emeraldium crystals, you may purchase improvements for your ship.\r\r\r\r\r\r\r\rThe Crab is a heavy, strong ship.  It carries a large main cannon, allowing many sustained shots.  Because of all this armor and gear, however, it is slow and hard to maneuver.\r\rThe Mantis is based on a racing craft.  Its slender body contains both powerful thrusters and swift maneuvering jets.  It carries relatively weak weapons, however.\r\rThe Moth is a time-honored favorite, containing a mix of decent weaponry and reasonable engines.  As a jack-of-all-trades, however, it is a master of none.\u0000"
+		},
+		"602": {
+			"name": "Weapon Upgrades",
+			"order": 22,
+			"obj": "Upgrade Options: Weapons\u0000"
+		},
+		"603": {
+			"name": "Shield Upgrades",
+			"order": 23,
+			"obj": "Upgrade Options: Shielding\u0000"
+		},
+		"604": {
+			"name": "Engine Upgrades",
+			"order": 24,
+			"obj": "Upgrade Options: Engines\u0000"
+		},
+		"605": {
+			"name": "Special Equipment",
+			"order": 25,
+			"obj": "Upgrade Options: Special Stuff.\rThis equipment is activated by means of a special key.  Only one of these items may be active at once.\u0000"
+		},
+		"606": {
+			"name": "Financial Services",
+			"order": 26,
+			"obj": "Upgrade Options: Finances\u0000"
+		},
+		"607": {
+			"name": "The Hazards",
+			"order": 27,
+			"obj": "While you\u2019re out there grabbing crystals, watch out for these:\r\r\r\r\r\r\rAnd the aliens...\rRemember that the aliens are there to gather crystals, too!\rWhen you blow one of them up, take care not to break their cargo!\u0000"
+		},
+		"608": {
+			"name": "Arvandor",
+			"order": 28,
+			"obj": "Asterax is not free!  If you play it with your friends and enjoy it, please pay your shareware fee.\r\rArvandor is dedicated to the development of quality Macintosh software.  This is our first public release; if Asterax is well received, we plan to work on a networked version and future projects after that!\u0000"
+		},
+		"609": {
+			"name": "Shareware Notice",
+			"order": 29,
+			"obj": "If you enjoy Asterax and want to see continuing\rsupport and projects from Arvandor Software, please\rsend a check for $10.00 U.S., made out to Michael Hanson,\rto the following address:\u0000"
+		},
+		"610": {
+			"name": "Thanks To...",
+			"order": 30,
+			"obj": "Asterax couldn't have happened without the help of our friends and testers all over the world... thanks to:\r\rIngemar Ragnemalm, for his great Sprite Animation Toolkit...\r\rMatt Slot, for the Gamma Library...\r\rBig Bob Heeter, Leo \"Lips\" Ramirez, Jeremy \"Ping\" Henrickson, Brian Acton, Jim Argraves, Jon Logan, Ian Burrell, Mike Kwong, and all our alpha testers...\r\rJuan Gonzalez, Anil Bhatia, Brian Kidder, Chris Hwang, Daniel Lorca-Martinez, David Goldsmith, Karl Jacobs, Jason Erlich, Jim McQuillan, Paul Lynch, Mark Mandt, Sean McMains, Milo Sharp, Joel Sadler, Andy Nicholas, Patrick Magruder, Paul Matlin, Robert Minnis, Scott Laing, Aapo Puskala, Erik Johnson, Stephen Haase, Tuan Huynh, Andrea Pellizzon, Anne Usong, and all our beta testers...\u0000\r\r"
+		}
+	},
+	"TMPL": {
+		"128": {
+			"name": "ATX\u00a7",
+			"order": 30,
+			"obj": [
+				{
+					"label": "Version string",
+					"type": "PSTR"
+				}
+			]
+		}
+	},
+	"vers": {
+		"128": {
+			"order": 31,
+			"data": "01308000000004312E3356244173746572617820762E20312E33560DA931393935204D69636861656C2048616E736F6E"
+		}
+	},
+	"STR#": {
+		"501": {
+			"name": "Key Codes",
+			"flags": 32,
+			"order": 32,
+			"obj": [
+				"A",
+				"S",
+				"D",
+				"F",
+				"H",
+				"G",
+				"Z",
+				"X",
+				"C",
+				"V",
+				"Undef",
+				"B",
+				"Q",
+				"W",
+				"E",
+				"R",
+				"Y",
+				"T",
+				"1",
+				"2",
+				"3",
+				"4",
+				"6",
+				"5",
+				"=",
+				"9",
+				"7",
+				"-",
+				"8",
+				"0",
+				"]",
+				"O",
+				"U",
+				"[",
+				"I",
+				"P",
+				"return",
+				"L",
+				"J",
+				"'",
+				"K",
+				";",
+				"\\",
+				",",
+				"/",
+				"N",
+				"M",
+				".",
+				"tab",
+				"space",
+				"`",
+				"delete",
+				"enter",
+				"escape",
+				"undef",
+				"command",
+				"shift",
+				"caps lock",
+				"option",
+				"control",
+				"shift",
+				"option",
+				"control",
+				"undef",
+				"undef 40",
+				"KP .",
+				"undef",
+				"KP *",
+				"undef",
+				"KP +",
+				"undef",
+				"KP clear",
+				"undef",
+				"undef",
+				"undef",
+				"KP /",
+				"KP enter",
+				"undef",
+				"KP -",
+				"undef",
+				"undef 50",
+				"KP =",
+				"KP 0",
+				"KP 1",
+				"KP 2",
+				"KP 3",
+				"KP 4",
+				"KP 5",
+				"KP 6",
+				"KP 7",
+				"undef 5A",
+				"KP 8",
+				"KP 9",
+				"undef 5D",
+				"undef 5E",
+				"undef 5F",
+				"F5",
+				"F6",
+				"F7",
+				"F3",
+				"F8",
+				"F9",
+				"undef 66",
+				"F11",
+				"undef 68",
+				"F13",
+				"undef 6A",
+				"F14",
+				"undef 6C",
+				"F10",
+				"undef 6E",
+				"F12",
+				"undef 70",
+				"F15",
+				"help",
+				"home",
+				"pageup",
+				"del",
+				"F4",
+				"end",
+				"F2",
+				"pagedown",
+				"F1",
+				"left",
+				"right",
+				"down",
+				"up",
+				"",
+				""
+			]
+		},
+		"500": {
+			"name": "File Errors",
+			"order": 33,
+			"obj": [
+				"Your disk is too full to create the * file.   Please delete something and try again.",
+				"An error has occured while attempting to create the * file.  Is your disk properly set up?",
+				"The * file cannot be created because your disk is locked.  Please unlock it and try again.",
+				"The * file cannot be created because Asterax is on a write-protected volume.  Please copy it to a volume where you have write access and try again.",
+				"The * file could not be created.  Asterax did not understand the error message.  Sorry.",
+				"The * file could not be opened.  Asterax did not understand the error message.  Sorry.",
+				"Asterax was unable to understand your * file.  It may no longer be compatible with your version of Asterax.  Try moving it out of the folder and running Asterax again.",
+				"Asterax encountered an input error while trying to read your * file.  Is your disk properly set up?",
+				"Asterax encountered an error while attempting to read the * file.  Try moving it out of the folder to see if Asterax can make a new one."
+			]
+		},
+		"600": {
+			"name": "Hazard Descriptions",
+			"order": 34,
+			"obj": [
+				"big rocks",
+				"less-big rocks",
+				"not-very-big-at-all rocks",
+				"Thorvian Marauders... unpleasant and opinionated.",
+				"A very bad choice for dinner company.",
+				"Barsht Leech-Ship... they can suck your shields dry.",
+				"A bit like a blood-letting, but less amusing.",
+				"Gorvian Spider Ship... fast, accurate, and nasty.",
+				"Keep a mine around, or avoid these guys as much as possible."
+			]
+		},
+		"610": {
+			"name": "Shareware Info",
+			"order": 35,
+			"obj": [
+				"Asterax is a production of"
+			]
+		},
+		"502": {
+			"name": "Key Descriptions",
+			"order": 36,
+			"obj": [
+				"Click on one of the key's boxes, then press the new key.",
+				"Thrust",
+				"Turn Clockwise",
+				"Turn Counterclockwise",
+				"Fire",
+				"Select Special",
+				"Activate Special",
+				"Important Note: Due to the limitations of the Macintosh keyboard hardware, only two modifier keys and two non-modifier keys can be detected down at once.  Please remember this when choosing your keys!"
+			]
+		},
+		"400": {
+			"name": "General",
+			"order": 37,
+			"obj": [
+				"Asterax needs to be restarted to allocate memory for the new screen size.",
+				"Set Screen Size\u2026",
+				"Slower, but more compatible, graphics",
+				"Double Speed (may not be possible on slower Macs)",
+				"New Game parameters (older parameters get very slow)",
+				"Key Setup",
+				"Player One:",
+				"Player Two:",
+				"Difficulty: ",
+				"Beginner",
+				"Normal",
+				"Expert",
+				"More...",
+				"Volume: ",
+				"Sound file is not available.",
+				"Please support shareware!",
+				"See the about screens for more info...",
+				"Loading Graphics...",
+				"Sorry, Asterax requires System 7.0 or greater.",
+				"Asterax could not find the file, 'Asterax Sounds'.  The game will run without sound.  If you want to use sounds, make sure the file is in the same folder as Asterax!",
+				"Asterax could not find the file 'Asterax Data'.  Is it in the same folder as the application?",
+				"Shields: ",
+				"Policy Cancelled!!!",
+				"Insurance payment is ",
+				"remain.",
+				"in bank",
+				"Level",
+				"Cleared",
+				"Entering",
+				"Score: ",
+				"Sc: ",
+				"Restoring Ship...",
+				"Building Ship...",
+				"Game Over",
+				"Lives: ",
+				"Entering Marketplace...",
+				"Current Equipment:",
+				"Aim at the other player and fire to exchange crystals, or fly to the exits.",
+				"Lv.",
+				"player",
+				"Not available",
+				"Use your turn keys to select a ship, then press fire to select it.",
+				"",
+				"",
+				"",
+				"Emeraldium Crystal",
+				"Shield-Energy Crystal",
+				"No suspended game available.",
+				"Suspended Game: ",
+				"players"
+			]
+		},
+		"401": {
+			"name": "Ship Names",
+			"order": 38,
+			"obj": [
+				"Crab",
+				"Mantis",
+				"Moth",
+				"Strong and well armed, but very slow.",
+				"Fast and maneuverable, but lightly armed and armored.",
+				"A mix of speed and strength."
+			]
+		},
+		"2000": {
+			"name": "Item Descriptions",
+			"order": 39,
+			"obj": [
+				"Fast Shots: Your shots will travel farther and faster.",
+				"Six Shots: Allows six shots on screen at once.  Standard equipment for the Moth.",
+				"Eight Shots: Allows eight shots on the screen at once.  Standard equipment for the Crab.",
+				"Twelve Shots: Allows twelve shots on the screen at once.",
+				"Automatic Shots: Fires all of your shots without having to fire again.",
+				"Safe Shots: Will not destroy crystals or energy pods.",
+				"Double Shots: Fires your shots in two streams.",
+				"Triple Shots: Fires your shots in three streams.",
+				"Scatter Shots: Your shots will explode into submunitions after impact.",
+				"Shield Recharge: Restores one small rock's worth of energy to your shields.  Cannot charge your shields beyond their normal capacity.",
+				"Level 1 Shields: Can absorb six small rock impacts.  Standard equipment on the Moth.",
+				"Level 2 Shields: Can absorb eight small rock impacts.  Standard equipment on the Crab.",
+				"Level 3 Shields: Can absorb twelve small rock impacts.",
+				"Level 4 Shields: Can absorb sixteen small rock impacts.",
+				"Small Engines: Standard equipment on the Moth.",
+				"Medium Engines: Standard equipment on the Mantis.  Allows faster acceleration and higher top speed.",
+				"Large Engines: Allows for quicker acceleration and a higher top speed.",
+				"Super Engines: Allow very quick acceleration and a very high top speed.",
+				"Retro Engines: Will automatically slow you to a stop when you are not thrusting.",
+				"Starburst: When activated, spins your ship around very rapidly and fires hundreds of shots.",
+				"Supershield: Makes you invulnerable for a period of time.",
+				"Crystal Grabber: Launches a robot to retrieve energy pods and crystals for you.",
+				"Anti-Alien Mine: Seeks and destroys alien ships.",
+				"Hyperspace: Transports your ship to a random location.",
+				"Recharge: Gives your shields an instant boost.",
+				"Cash In: Trade one crystal for 1000 points.",
+				"Cash In: Trade five crystals for 5000 points.",
+				"Cash In: Trade nine crystals for 10,000 points.",
+				"Cash In: Trade forty crystals for 50,000 points.",
+				"New Ships: Increases your life count by one.",
+				"Insurance: Restores your current equipment after death.  Requires payments every level."
+			]
+		}
+	},
+	"ATX\u00a7": {
+		"0": {
+			"name": "Owner resource",
+			"order": 40,
+			"data": "224173746572617820312E33562C20A931393935204D69636861656C2048616E736F6E"
+		}
+	},
+	"ALRT": {
+		"128": {
+			"name": "Fatal",
+			"order": 41,
+			"data": "0044005E00E8017200805555300A"
+		},
+		"129": {
+			"name": "Nonfatal",
+			"order": 42,
+			"data": "0044005E00E8017200815555300A"
+		}
+	},
+	"ics#": {
+		"128": {
+			"order": 43,
+			"file": "ics%23/128.png"
+		},
+		"129": {
+			"order": 44,
+			"file": "ics%23/129.png"
+		},
+		"130": {
+			"order": 45,
+			"file": "ics%23/130.png"
+		},
+		"131": {
+			"order": 46,
+			"file": "ics%23/131.png"
+		},
+		"132": {
+			"order": 47,
+			"file": "ics%23/132.png"
+		}
+	},
+	"ics4": {
+		"128": {
+			"order": 48,
+			"file": "ics4/128.png"
+		},
+		"129": {
+			"order": 49,
+			"file": "ics4/129.png"
+		},
+		"130": {
+			"order": 50,
+			"file": "ics4/130.png"
+		},
+		"131": {
+			"order": 51,
+			"file": "ics4/131.png"
+		},
+		"132": {
+			"order": 52,
+			"file": "ics4/132.png"
+		}
+	},
+	"icl4": {
+		"128": {
+			"order": 53,
+			"file": "icl4/128.png"
+		},
+		"129": {
+			"order": 54,
+			"file": "icl4/129.png"
+		},
+		"130": {
+			"order": 55,
+			"file": "icl4/130.png"
+		},
+		"131": {
+			"order": 56,
+			"file": "icl4/131.png"
+		},
+		"132": {
+			"order": 57,
+			"file": "icl4/132.png"
+		}
+	},
+	"ics8": {
+		"128": {
+			"order": 58,
+			"file": "ics8/128.png"
+		},
+		"129": {
+			"order": 59,
+			"file": "ics8/129.png"
+		},
+		"130": {
+			"order": 60,
+			"file": "ics8/130.png"
+		},
+		"131": {
+			"order": 61,
+			"file": "ics8/131.png"
+		},
+		"132": {
+			"order": 62,
+			"file": "ics8/132.png"
+		}
+	},
+	"ICN#": {
+		"128": {
+			"order": 63,
+			"file": "ICN%23/128.png"
+		},
+		"129": {
+			"order": 64,
+			"file": "ICN%23/129.png"
+		},
+		"130": {
+			"order": 65,
+			"file": "ICN%23/130.png"
+		},
+		"131": {
+			"order": 66,
+			"file": "ICN%23/131.png"
+		},
+		"132": {
+			"order": 67,
+			"file": "ICN%23/132.png"
+		}
+	},
+	"icl8": {
+		"128": {
+			"order": 68,
+			"file": "icl8/128.png"
+		},
+		"129": {
+			"order": 69,
+			"file": "icl8/129.png"
+		},
+		"130": {
+			"order": 70,
+			"file": "icl8/130.png"
+		},
+		"131": {
+			"order": 71,
+			"file": "icl8/131.png"
+		},
+		"132": {
+			"order": 72,
+			"file": "icl8/132.png"
+		}
+	},
+	"FREF": {
+		"128": {
+			"order": 73,
+			"data": "4150504C000000"
+		},
+		"129": {
+			"order": 74,
+			"data": "4154534F000100"
+		},
+		"130": {
+			"order": 75,
+			"data": "41545343000200"
+		},
+		"131": {
+			"order": 76,
+			"data": "41545046000300"
+		},
+		"132": {
+			"order": 77,
+			"data": "41544454000400"
+		}
+	},
+	"BNDL": {
+		"128": {
+			"order": 78,
+			"data": "415458A400000001465245460004000000800001008100020082000300830004008449434E2300040000008000010081000200820003008300040084"
+		}
+	},
+	"dctb": {
+		"500": {
+			"name": "Select Ship",
+			"order": 79,
+			"data": "00000000000000040000000000000000000100009999FFFF0002AAAAAAAAAAAA0003AAAAAAAAAAAA0004555555555555"
+		},
+		"201": {
+			"order": 80,
+			"data": "000000000000000400000000000000000001000000000000000200000000000000030000000000000004FFFFFFFFFFFF"
+		},
+		"200": {
+			"order": 81,
+			"data": "00000000000000040000000000000000000100009999FFFF0002FFFFFFFFFFFF000300000000DDDD000400009999FFFF"
+		},
+		"300": {
+			"name": "Prefs",
+			"order": 82,
+			"data": "00000000000000040000FFFFFFFFFFFF0001000000000000000200000000000000030000000000000004EEEEEEEEEEEE"
+		},
+		"202": {
+			"name": "NCC-",
+			"order": 83,
+			"data": "00820000000000000000FFFFFFFF044861636B1B4163746976617465204865696E6F757320446966666963756C74790000000012546F67676C65204672616D652044656C61790000000015416C69656E2050726F78696D69747920416C6572740000000000"
+		}
+	},
+	"PICT": {
+		"200": {
+			"name": "Crab Pict",
+			"order": 84,
+			"file": "PICT/200.CrabPict.png"
+		},
+		"201": {
+			"name": "Mantis Pict",
+			"order": 85,
+			"file": "PICT/201.MantisPict.png"
+		},
+		"202": {
+			"name": "Moth Pict",
+			"order": 86,
+			"file": "PICT/202.MothPict.png"
+		},
+		"150": {
+			"name": "Asterax",
+			"order": 87,
+			"file": "PICT/150.Asterax.png"
+		},
+		"151": {
+			"name": "High scores",
+			"order": 88,
+			"file": "PICT/151.Highscores.png"
+		},
+		"152": {
+			"name": "Begin one",
+			"order": 89,
+			"file": "PICT/152.Beginone.png"
+		},
+		"153": {
+			"name": "Begin two",
+			"order": 90,
+			"file": "PICT/153.Begintwo.png"
+		},
+		"156": {
+			"name": "Set keys",
+			"order": 91,
+			"file": "PICT/156.Setkeys.png"
+		},
+		"155": {
+			"name": "Prefs",
+			"order": 92,
+			"file": "PICT/155.Prefs.png"
+		},
+		"157": {
+			"name": "Quit",
+			"order": 93,
+			"file": "PICT/157.Quit.png"
+		},
+		"154": {
+			"name": "About",
+			"order": 94,
+			"file": "PICT/154.About.png"
+		},
+		"400": {
+			"name": "Asterax Small Logo",
+			"order": 95,
+			"file": "PICT/400.AsteraxSmallLogo.png"
+		},
+		"401": {
+			"name": "Asterax Preferences (b on w)",
+			"order": 96,
+			"file": "PICT/401.AsteraxPreferencesbonw.png"
+		},
+		"160": {
+			"name": "Red Out",
+			"order": 97,
+			"file": "PICT/160.RedOut.png"
+		},
+		"161": {
+			"name": "Red In",
+			"order": 98,
+			"file": "PICT/161.RedIn.png"
+		},
+		"162": {
+			"name": "Green Out",
+			"order": 99,
+			"file": "PICT/162.GreenOut.png"
+		},
+		"163": {
+			"name": "Green In",
+			"order": 100,
+			"file": "PICT/163.GreenIn.png"
+		},
+		"164": {
+			"name": "Blue Out",
+			"order": 101,
+			"file": "PICT/164.BlueOut.png"
+		},
+		"165": {
+			"name": "Blue In",
+			"order": 102,
+			"file": "PICT/165.BlueIn.png"
+		},
+		"303": {
+			"name": "Done In",
+			"order": 103,
+			"file": "PICT/303.DoneIn.png"
+		},
+		"302": {
+			"name": "Done Out",
+			"order": 104,
+			"file": "PICT/302.DoneOut.png"
+		},
+		"300": {
+			"name": "Next Out",
+			"order": 105,
+			"file": "PICT/300.NextOut.png"
+		},
+		"301": {
+			"name": "Next In",
+			"order": 106,
+			"file": "PICT/301.NextIn.png"
+		},
+		"158": {
+			"name": "Choose Your Ship",
+			"order": 107,
+			"file": "PICT/158.ChooseYourShip.png"
+		},
+		"603": {
+			"name": "Ingemar Credit",
+			"order": 108,
+			"file": "PICT/603.IngemarCredit.png"
+		},
+		"601": {
+			"name": "Mike Credit",
+			"order": 109,
+			"file": "PICT/601.MikeCredit.png"
+		},
+		"602": {
+			"name": "Anne Credit",
+			"order": 110,
+			"file": "PICT/602.AnneCredit.png"
+		},
+		"500": {
+			"name": "Arrow Up",
+			"order": 111,
+			"file": "PICT/500.ArrowUp.png"
+		},
+		"501": {
+			"name": "Arrow Down",
+			"order": 112,
+			"file": "PICT/501.ArrowDown.png"
+		},
+		"503": {
+			"name": "Arrow Down Lit",
+			"order": 113,
+			"file": "PICT/503.ArrowDownLit.png"
+		},
+		"502": {
+			"name": "Arrow Up Lit",
+			"order": 114,
+			"file": "PICT/502.ArrowUpLit.png"
+		},
+		"128": {
+			"name": "Splash Screen",
+			"order": 115,
+			"file": "PICT/128.SplashScreen.png"
+		},
+		"159": {
+			"order": 116,
+			"file": "PICT/159.png"
+		},
+		"700": {
+			"order": 117,
+			"file": "PICT/700.png"
+		},
+		"701": {
+			"order": 118,
+			"file": "PICT/701.png"
+		}
+	},
+	"MENU": {
+		"128": {
+			"order": 119,
+			"data": "00800000000000000000FFFFFFFF01140E41626F75742041737465726178C90000000000"
+		},
+		"129": {
+			"order": 120,
+			"data": "00810000000000000000FFFFFFF70446696C6515426567696E204F6E6520506C617965722047616D650031000015426567696E2054776F20506C617965722047616D6500320000012D0000000004517569740051000000"
+		},
+		"130": {
+			"order": 121,
+			"data": "00820000000000000000FFFFFFF70447616D6509566F6C756D65205570005D00000B566F6C756D6520446F776E005B0000012D000000000C53757370656E642047616D65005300000B526573756D652047616D6500520000064368656174210000000000"
+		}
+	},
+	"MBAR": {
+		"128": {
+			"order": 122,
+			"data": "0003008000810082"
+		}
+	},
+	"DLOG": {
+		"200": {
+			"name": "About",
+			"order": 123,
+			"data": "0022000C019B01770001010001000000000000C800"
+		},
+		"201": {
+			"name": "High Scores",
+			"order": 124,
+			"data": "0062009000FF01C20003010001000000000000C900"
+		},
+		"300": {
+			"name": "Prefs",
+			"order": 125,
+			"data": "001E003E016E01B400030100010000000000012C00"
+		},
+		"301": {
+			"name": "Screen Depth",
+			"order": 126,
+			"data": "004000500108014000030100010000000000012D00"
+		},
+		"302": {
+			"name": "Unusual Size Dialog",
+			"order": 127,
+			"data": "0034005000FC014000030100010000000000012E00"
+		},
+		"303": {
+			"name": "Converting prefs",
+			"order": 128,
+			"data": "005A006600F6015E00010100000000000000012F00"
+		}
+	},
+	"DITL": {
+		"200": {
+			"order": 129,
+			"data": "000B00000000016001280174016204024F4B000000000004003B003B0123C002009600000000005C0040006E011C881D50726F6772616D6D696E67206279204D69636861656C2048616E736F6E000000000000710056008101078819417274776F726B20627920416E6E652046756C6C6572746F6E0000000000008C0031009B012B8824446576656C6F706564207573696E67207468652053707269746520416E696D6174696F6E00000000009E004500AE0115881C546F6F6C6B697420627920496E67656D6172205261676E656D616C6D00000000015F002B01700102881F4D6F726520496E666F20696E207468652041626F75742053637265656E73210000000000003F008A004F00E1880C76657273696F6E20312E33560000000000BE004F00CE011F881E5075626C6973686564206279204D6163536F66742C2066726F6D207468650000000000D0005A00E001198816566172636F6E2047616D6520436F6C6C656374696F6E0000000000F9000E012B009AC00202BD0000000000EE00F9013C0147C00202BC"
+		},
+		"201": {
+			"order": 130,
+			"data": "000300000000007D00E90091012304024F4B0000000000020004001A006EC0020097000000000020000A0058012B8857436F6E67726174756C6174696F6E735E30212020596F752068617665206120686967682073636F7265212020456E74657220796F7572206E616D6520746F207265636F726420697420666F7220706F737465726974793A6E0000000000610013007101121009416E6F6E796D6F75734B"
+		},
+		"300": {
+			"order": 131,
+			"data": "000B00000000013401330148016D04024F4B00000000013400EF01480129040643616E63656C000000000007000600300073C00201910000000000370009008A017188EB417374657261782063616E20737570706F7274206120706C6179696E672061726561206173206C6172676520617320796F7572206D61696E2073637265656E2C20627574207265717569726573206D756368206D6F7265206D656D6F727920666F72206C617267652073637265656E732E2020506C656173652063686F6F73652077686963682073637265656E2073697A6520796F75207769736820746F207573652062656C6F772E2020596F75206D6179206368616E676520746869732062792073656C656374696E672027507265666572656E6365732720696E2041737465726178206C617465722E0000000000008B003E009D00D606133531322078203338342028436C6173736963290000000000009F003E00B1013B06153634302078203430302028506F776572426F6F6B29000000000000B2003E00C400D8061336343020782034383020283133222052474229040000000000C5003E00D700D8061338333220782036323420283136222052474229040000000000D8003E00EA00D8061431303234207820373638202831392220524742290000000000EB003E00FD013B06143131353220782038373020283231222052474229000000000101000C01320154886A596F75206D617920616C736F207468726F77206F757420796F7572206F6C6420507265666572656E6365732066696C6520696E206F7264657220746F207265636569766520746869732073637265656E20617420737461727475702C206966206E65636573736172792E000000000135000C01490098040F556E757375616C2053697A652E2E2E00"
+		},
+		"301": {
+			"order": 132,
+			"data": "00030000000000150019003900D78838417374657261782072657175697265732061206D6F6E69746F7220696E203136206F722032353620636F6C6F7273206F722067726179732E00000000009B003500B300C6040D517569742028536F72727921290000000000007B0035009300C6041353776974636820746F20313620636F6C6F72730000000000005C0035007400C6041453776974636820746F2032353620636F6C6F7273"
+		},
+		"128": {
+			"order": 133,
+			"data": "000200000000008800D1009C010B04045175697400000000000600330083010D88085E305E315E325E33000000000006000600260026A0020002"
+		},
+		"129": {
+			"order": 134,
+			"data": "000200000000008800D1009C010B04044F6B617900000000000600330083010D88085E305E315E325E33000000000006000600260026A0020002"
+		},
+		"302": {
+			"order": 135,
+			"data": "00050000000000A500AB00B900E504024F4B0000000000060007005800E78881596F75206D617920656E74657220616E792073637265656E2073697A6520796F75207769736820696E2074686973206469616C6F673B20706C65617365206E6F7465207468617420796F752063616E6E6F742061736B20666F7220612073697A65206C6172676572207468616E207468652063757272656E742073637265656E2E00000000000062000900720054880657696474683A00000000007E0009008E005488074865696768743A00000000000062005A007200A5100000000000007E005A008E00A51000"
+		},
+		"303": {
+			"order": 136,
+			"data": "000300000000007E00AF009200E904044F6B617900000000007E0068009200A2040643616E63656C0000000000030004003800EC88614173746572617820312E33206E6565647320746F20636F6E7665727420796F7572206F6C6420224173746572617820507265666572656E636573222066696C6520746F2072756E207769746820746865206E6577206170706C69636174696F6E2E0000000000003C0004007000EC885B596F75722073657474696E67732077696C6C206E6F74206265206368616E6765642C206275742074686520707265666572656E6365732066696C652077696C6C206E6F7420776F726B2077697468204173746572617820312E302E00"
+		}
+	}
+}

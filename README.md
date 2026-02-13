@@ -1,0 +1,18 @@
+# Asterax
+
+Asterax is a Macintosh Classic (System 7) game, written by Michael Hanson. It is based on the classic console arcade game [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)), in which a player-controlled ship must avoid drifting asteroids by shooting them with a projectile weapon.
+
+Asterax was created as a student project when Michael was a sophomore studying computer science at Stanford University.   It was released as shareware in May 1994, and was included on the Varcon/MacSoft Arcade Collection CD-ROM in 1995.  In those days, it was conventional to release shareware into the world by uploading it to a public FTP repository such as wuarchive.wustl.edu and mac.archive.umich.edu, and that is how Asterax was sent out into the world.  The source code included in this repo is the version that was used to build version 1.3, which was released in September 1995, and was the final version.
+
+The original application was coded in C, and has numerous dependencies on the [Sprite Animation Toolkit](https://www.macintoshrepository.org/18802-sprite-animation-toolkit), a library made by Ingemar Ragnemalm.  During this time the Macintosh Toolbox libraries were still mostly implemented in assembly and used Pascal calling conventions, which accounts some of the unusual header declarations found in the code.  The project was built with [THINK C](https://en.wikipedia.org/wiki/THINK_C), which was a common compiler for Macintosh developers in those days. For release the program was compiled for both the Motorola 680x0 and PowerPC architectures and released as a [fat binary](https://en.wikipedia.org/wiki/Fat_binary).
+
+Support for multiple screen sizes and bit depths was a necessary part of game development for the Macintosh in those years, and Asterax included support for both 16 bit and 256 bit monitors, and for multiple screen sizes.  Memory allocation to an application was a manual process, and support for greater bit depths required increasing the memory size of the process.
+
+The graphics for Asterax were rendered with hand-coded [POVRay](https://www.povray.org/) raytracing files, mostly using constructive solid geometry.  The source files for the original graphics are included in this repository, but are somewhat difficult to render with the most recent version of POVRay, due to drift in the supporting libraries and environment files.  Using POVRay was a somewhat goofy choice even at the time, but was an interesting challenge, and it was the only 3D rendering toolkit for the Mac that supported automatic rotation of models.  The original designs for the ships and flying saucers are all by Anne Fullerton, a fellow student.
+
+The original distribution stored image and sound assets in a separate file. The resource forks of the original project were extracted with [rsrcdump](https://github.com/jorio/rsrcdump), a useful tool by [jorio](https://github.com/jorio); image and sound files were moved into the Assets directory and the JSON dumps of the resource forks are placed in the Resources directory.   Sprites for the game were encoded as `cicn` resources, which had the benefit of built-in loader functions and a graphical editor in [ResEdit](https://en.wikipedia.org/wiki/ResEdit); the types of the original resources are preseved in the Assets directory.
+
+## License 
+
+In the interest of preserving a snapshot of hobbyist Macintosh software from the System 7 era, the authors license this source code, sound, and graphic files under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+
